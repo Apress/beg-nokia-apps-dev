@@ -1,0 +1,16 @@
+.nokia-progressbar {
+	height:2em;
+	text-align: left;
+}
+
+.nokia-progressbar-label {
+	font-size: 18px;
+	padding: 5px;
+	text-align: center;
+	color: #474747;
+}
+
+.nokia-progressbar .nokia-progressbar-value {
+	margin: -1px;
+	height:100%;
+}

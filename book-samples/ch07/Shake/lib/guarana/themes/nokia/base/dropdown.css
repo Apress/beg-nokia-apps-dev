@@ -1,0 +1,44 @@
+.nokia-dropdown {
+	text-align: left;
+	font-size: 25px;
+	padding: 10px 0;
+	position: relative;
+}
+
+.nokia-dropdown a {
+	text-decoration: none;
+}
+
+.nokia-dropdown-item {
+	padding: 10px 15px;
+	border-top: 1px solid #CCCCCC;
+	display: none;
+}
+
+.nokia-dropdown-item-selected {
+}
+
+.nokia-dropdown-label {
+	font-weight: bold;
+	padding: 15px;
+	display: block;
+}
+
+.nokia-dropdown-arrow {
+	background: transparent url(images/arrow-down.png) no-repeat 98% 40%;
+	height: 30px;
+	width: 40px;
+	position: absolute;
+	top: 25px;
+	right: 15px;
+}
+
+.nokia-dropdown-container {
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+
+.nokia-dropdown-item-wrapper {
+	
+}

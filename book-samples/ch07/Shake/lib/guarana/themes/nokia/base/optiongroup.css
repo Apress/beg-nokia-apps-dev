@@ -1,0 +1,17 @@
+.nokia-optiongroup-element {
+	padding: 15px 10px 10px 25px;
+}
+
+.nokia-optiongroup {
+	display: block;
+}
+
+.nokia-optiongroup-title {
+	font-weight: bold;
+	margin-bottom: 25px;
+	font-size: 24px;
+}
+
+.nokia-optiongroup-focused {
+	border-color: #8BC53F !important;
+}

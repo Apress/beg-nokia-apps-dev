@@ -1,0 +1,534 @@
+body {
+	font-size:14px;
+	max-width: 320px;
+}
+
+/* Colors */
+
+.nokia-border-state-default > b {
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.nokia-border-state-default.nokia-border-top > b {
+	background: #F6F6F6;
+}
+
+.nokia-border-state-default.nokia-border-bottom > b {
+	background: #F7F7F7;
+}
+
+.nokia-border-state-default b.nokia-b1 {
+	background: #C8C8C8;
+}
+
+.nokia-border-state-active > b {
+	border-left: 1px solid #72A729;
+	border-right: 1px solid #72A729;
+}
+
+.nokia-border-state-active.nokia-border-top > b {
+	background: #A4C64E;
+}
+
+.nokia-border-state-active.nokia-border-bottom > b {
+	background: #B0CD66;
+}
+
+.nokia-border-state-active b.nokia-b1 {
+	background: #72A729;
+}
+
+.nokia-border-state-hover > b {
+	border-left: 1px solid #72A729;
+	border-right: 1px solid #72A729;
+}
+
+.nokia-border-state-hover.nokia-border-top > b {
+	background-color: #DADFC9;
+}
+
+.nokia-border-state-hover.nokia-border-bottom > b {
+	background-color: #E5E9D9;
+}
+
+.nokia-border-state-hover b.nokia-b1 {
+	background: #72A729;
+}
+
+.nokia-border-state-highlight > b {
+	border-left: 1px solid #72A729;
+	border-right: 1px solid #72A729;
+}
+
+.nokia-border-state-highlight.nokia-border-top > b {
+	background: #9CC140;
+}
+
+.nokia-border-state-highlight.nokia-border-bottom > b {
+	background: #A6C752;
+}
+
+.nokia-border-state-highlight b.nokia-b1 {
+	background: #72A729;
+}
+
+.nokia-border-state-disabled > .nokia-b1 {
+	background: #C8C8C8;
+}
+
+.nokia-border-state-disabled > b {
+	opacity: .35;
+	background-image: none;
+}
+
+/* General */
+
+.ui-widget {
+	font-size: .8em;
+}
+
+/* Accordion */
+
+.ui-accordion .ui-accordion-header a {
+	font-size: 1.0em;
+	padding: 0.5em 0.5em 0.5em .8em;
+}
+
+.ui-accordion .ui-accordion-content {
+	padding: 0.5em 0.8em;
+}
+
+/* Button */
+
+.nokia-button {
+	margin: 2px;
+}
+
+.nokia-button-element {
+	padding: 0;
+	font-size: .8em;
+}
+
+/* Carousel */
+
+.nokia-carousel-arrow-left {
+	background: url(images/arrow-left.png) no-repeat 25% 50%;
+}
+
+.nokia-carousel-arrow-right {
+	background: url(images/arrow-right.png) no-repeat 75% 50%;
+}
+
+.nokia-checkbox-icon { 
+	background-image: url(images/checkbox.png);
+	height: 18px; 
+	width: 21px;
+}
+
+/* Checkbox */
+
+.nokia-checkbox-checked { 
+	background-position: 0px 0px;
+}
+
+.nokia-checkbox-unchecked { 
+	background-position: 0 -38px;
+}
+
+.nokia-checkbox-pushed .nokia-checkbox-checked {
+	background-position: 0 -19px;
+}
+
+.nokia-checkbox-pushed .nokia-checkbox-unchecked {
+	background-position: 0 -57px; 
+}
+
+.nokia-checkbox-label {
+	line-height: 22px;
+	font-size: 1.2em;
+	margin-top: -4px;
+	margin-left: 12px;
+}
+
+/* Customizable List */
+
+.nokia-customizablelist-item {
+	padding: 5px;
+}
+
+/* Datepicker */
+
+.nokia-datepicker {
+	width: 230px;
+	padding: 2px;
+	font-size: 10px;
+}
+
+.nokia-datepicker-navigation-wrapper {
+	height: 17px;
+}
+
+.nokia-datepicker-calendar-wrapper {
+	padding: 2px;
+}
+
+.nokia-datepicker-element {
+	margin-bottom: 2px;
+}
+
+.nokia-datepicker-label-date {
+	margin: 2px 0 0 12px;
+	color: #CCCCCC;
+	float: left;
+	font-size: 22px;
+	width: 150px;
+	border: none;
+	background: transparent;
+}
+
+.nokia-datepicker-label-month {
+	float: left;
+	width: 60%;
+	text-align: center;
+	padding: 3px 0;
+}
+
+.nokia-datepicker-week-label {
+	display:block;
+	float:left;
+	font-weight:bold;
+	margin: 2px;
+	padding: 0 6px;
+	text-align:center;
+	width: 16px;
+}
+
+.nokia-datepicker-day {
+	cursor: default;
+	float: left;
+	margin: 2px;
+	padding: 8px 6px;
+	font-size: 12px;
+	text-align: center;
+	width: 14px;
+}
+
+.nokia-datepicker-arrow-icon {
+	margin-top: 1px;
+}
+
+.nokia-datepicker-image {
+	display: block;
+	height: 31px;
+	width: 31px;
+	background: url(images/calendar.png) no-repeat;
+}
+
+.nokia-datepicker-arrow {
+	height: 18px;
+}
+
+.nokia-datepicker-image-hover {
+	background-position: 0 -30px;
+}
+
+/* Dropdown */
+
+.nokia-dropdown {
+	text-align: left;
+	font-size: 12px;
+	padding: 0px;
+	position: relative;
+}
+
+.nokia-dropdown-item {
+	padding: 5px 7px;
+	border-top: 1px solid #CCCCCC;
+	display: none;
+}
+
+.nokia-dropdown-arrow {
+	font-weight: bold;
+	padding: 4px;
+	display: block;
+	background: transparent url(images/arrow-down.png) no-repeat 98% 40%;
+}
+
+/* Iconic Menu */
+
+.nokia-iconicmenu-item {
+	height: 35px;
+}
+
+/* Image Description */
+
+.nokia-imagedescription {
+	margin: 5px 0;
+}
+
+.nokia-imagedescription-arrow-down {
+	background-position: 0 -14px;	
+}
+
+.nokia-imagedescription-arrow {
+	margin: 5px auto 0 auto;
+	height: 12px;
+	width: 20px;
+	background: transparent url(images/imagedescription.png) no-repeat;
+}
+
+.nokia-imagedescription-description {
+	margin: 7px auto 0px auto;
+}
+
+.nokia-imagedescription-wrapper {
+	padding: 7px;
+}
+
+/* Lightbox */
+
+.nokia-lightbox-button {
+	padding: 5px;
+}
+
+/* Options Menu */
+
+.nokia-optionsmenu .nokia-optionsmenu-item > div {
+	min-width: 120px;
+}
+
+.nokia-optionsmenu a.nokia-label {
+	padding: 7px;
+}
+
+.nokia-optionsmenu div a {
+	padding: 5px;
+}
+
+.nokia-optionsmenu-label-content {
+	background: transparent url(images/arrow-down-small.png) no-repeat scroll 98% 50%;
+}
+
+.ui-state-active .nokia-optionsmenu-label-content {
+	background: transparent url(images/arrow-down-small-active.png) no-repeat scroll 98% 50%;
+}
+
+/* Option Group */
+
+.nokia-optiongroup-element {
+	padding: 6px 5px 5px 8px;
+}
+
+.nokia-optiongroup-title {
+	font-weight: bold;
+	margin-bottom: 12px;
+	font-size: 12px;
+}
+
+
+/* Progress Bar */	
+
+.nokia-progressbar{
+	height: 1em;
+}
+
+/* Radiobox */
+
+.nokia-radiobox {
+	margin-bottom: 7px;
+}
+
+.nokia-radiobox-icon {
+	background-image: url(images/radiobox.png);
+	height: 19px;
+	width: 19px;
+}
+
+.nokia-radiobox-checked {
+	background-position: 0 0px;
+}
+
+.nokia-radiobox-unchecked {
+	background-position: 0 -38px;
+}
+
+.nokia-radiobox-pushed .nokia-radiobox-checked {
+	background-position: 0 -19px;
+}
+
+.nokia-radiobox-pushed .nokia-radiobox-unchecked {
+	background-position: 0 -57px;
+}
+
+.nokia-radiobox-label {
+	line-height: 22px;
+	font-size: 0.75em;
+	margin-top: -3px;
+	margin-left: 12px;
+}
+
+/* Rating */
+
+.nokia-rating-star {
+	width: 31px; 
+	margin: 2px 1px; 
+	height: 30px;
+	background: transparent url(images/rating.png) no-repeat;
+}
+
+.nokia-rating-star-full {
+	background-position: 0 -60px;
+}
+
+.nokia-rating-star-full-hover {
+	background-position: 0 -30px;
+}
+
+/* Top Bar */
+
+.nokia-topbar {
+	padding: 0 5px;
+}
+
+.nokia-topbar-container {
+	background: url(images/top_bg_effects.png) repeat-x;
+}
+
+.nokia-topbar .nokia-topbar-item {
+	height: 18px;
+	width: 39px;
+	float: left;
+	margin: 0 4px;
+	background-position: 50% 50%;
+}
+
+.nokia-topbar, .nokia-topbar .nokia-topbar-container, .nokia-topbar .nokia-topbar-item {
+	height: 30px;
+}
+
+/* Floating Menu */
+
+.nokia-floatingmenu-item {
+	font-size: 14px;
+	padding: 7px;
+}
+
+/* Template */
+
+.nokia-template-header {
+	height: 30px;
+}
+
+.nokia-template-content {
+	height: 213px;
+	width: 230px;
+	padding: 5px;
+	font-size: 14px;
+}
+
+.nokia-template-footer {
+	height: 40px;
+}
+
+.nokia-template-header-landscape {
+	height: 30px;
+}
+
+.nokia-template-content-landscape {
+	height: 157px;
+	width: 265px;
+}
+
+.nokia-template-footer-landscape {
+	width: 44px;
+	top: 30px;
+}
+
+/* Template Default */
+
+/* Header Icons */
+
+.nokia-template-footer {
+	background: url(images/bg_shadows.png) repeat-x;
+}
+
+.nokia-template-header .nokia-template-header-icon-back {
+	background-image: url(images/icon_back.png);
+}
+
+.nokia-template-header .nokia-template-header-icon-menu {
+	background-image: url(images/icon_options.png);
+}
+
+.nokia-template-header .nokia-template-header-icon-close {
+	background-image: url(images/icon_close.png);
+}
+
+.nokia-template-header .nokia-template-header-icon-home {
+	background-image: url(images/icon_home.png);
+}
+
+.nokia-template-header .nokia-template-header-icon-separator {
+	background-image: url(images/line_vertical.png);
+	width: 2px;
+}
+
+.nokia-template-footer .nokia-iconicmenu-item {
+	padding: 4px 0 0 0;
+}
+
+.nokia-template-footer .nokia-iconicmenu-image {
+	margin: 1px;
+	height: 14px;
+}
+
+.nokia-template-footer .nokia-iconicmenu-label {
+	font-size: 12px;
+}
+
+.nokia-template-container .nokia-template-content-no-footer {
+	height: 280px;
+}
+
+.nokia-template-content-landscape.nokia-template-content-no-footer {
+	height: 140px;
+}
+
+.nokia-template-footer-landscape {
+	height: 167px;
+	background: url(images/bg_shadows-horizontal.png) repeat-y 100% 0;
+}
+
+.nokia-template-footer-landscape .nokia-iconicmenu-item {
+	width: 30px;
+	margin: 2px 0 0 4px;
+}
+
+.nokia-template-footer-landscape .nokia-iconicmenu-image {
+	height: 22px;
+}
+
+.nokia-template-header .nokia-template-header-icon-separator {
+	width: 2px;
+}
+
+.nokia-template-header .nokia-template-header-title {
+	font-size: 12px;
+	padding-top: 10px;
+	height: 20px;
+	width: 73px;
+}
+
+.nokia-template-header .nokia-template-header-icon-separator-right {
+	width: 2px;
+	right: 52px;
+}
+
+/* Template Default - Implementation Settings */
+
+.nokia-template-header .nokia-template-header-title {
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}

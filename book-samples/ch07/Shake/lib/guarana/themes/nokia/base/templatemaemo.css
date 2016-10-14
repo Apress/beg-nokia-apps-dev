@@ -1,0 +1,108 @@
+/* Content */
+
+.nokia-template-container .nokia-template-content-no-footer {
+	width: 100%;
+	height: 560px;
+}
+
+.nokia-template-content-landscape.nokia-template-content-no-footer {
+	height: 280px;
+}
+
+/* Footer */
+
+.nokia-template-footer {
+	background: url(images/bg_shadows.png) repeat-x;
+	padding: 0;
+}
+
+.nokia-template-footer-landscape {
+	background: url(images/bg_shadows-horizontal.png) repeat-y 100% 0;
+	padding: 0px;
+	width: 66px;
+}
+
+/* Iconic Menu */
+
+.nokia-template-footer .nokia-iconicmenu-label {
+	color: #474747;
+}
+
+.nokia-template-footer .nokia-iconicmenu-item {
+	width: 20%;
+	padding: 4px 0;
+}
+
+.nokia-template-footer-landscape .nokia-iconicmenu-item {
+	width: 46px;
+	margin: 8px 0 0 4px;
+	height: auto;
+	padding: 0 4px;
+}
+
+.nokia-template-footer-landscape .nokia-iconicmenu-label {
+	display: none;
+}
+
+/* Header Icons */
+
+.nokia-template-header .nokia-template-header-icon-back {
+	background-image: url(images/icon_back.png);
+	background-position: 0 0;
+	position: absolute;
+	right: 5px;
+}
+
+.nokia-template-header .nokia-template-header-icon-search {
+	background-image: url(images/icon_search.png);
+	background-position: 0 0;
+}
+
+.nokia-template-header .nokia-template-header-icon-menu {
+	background-image: url(images/icon_options.png);
+	background-position: 0 0;
+}
+
+.nokia-template-header .nokia-template-header-icon-menu-hover {
+	background-position: 0 -60px;
+}
+
+.nokia-template-header .nokia-template-header-icon-close {
+	background-image: url(images/icon_close.png);
+	background-position: 0 0;
+	position: absolute;
+	right: 5px;
+}
+
+.nokia-template-header .nokia-template-header-icon-home {
+	background-image: url(images/icon_home.png);
+	background-position: 0 0;
+}
+
+.nokia-template-header .nokia-template-header-icon-separator {
+	background-image: url(images/line_vertical.png);
+	width: 3px;
+}
+
+.nokia-template-header .nokia-template-header-title {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	float: left;
+	margin: 0 5px;
+	width: 110px;
+	height: 40px;
+	padding-top: 20px;
+}
+
+.nokia-template-header .nokia-template-header-icon-separator-right {
+	background-image: url(images/line_vertical.png);
+	width: 4px;
+	position: absolute;
+	right: 58px;
+}
+
+.nokia-template-header .nokia-template-header-icon-hover {
+	background-position: 0 -60px;
+}

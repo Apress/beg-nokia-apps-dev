@@ -1,0 +1,11 @@
+.nokia-floatingmenu {
+	position: absolute;
+	display: none;
+}
+
+.nokia-floatingmenu-item {
+	display: block;
+	padding: 15px;
+	font-size: 18px;
+	text-decoration: none;
+}

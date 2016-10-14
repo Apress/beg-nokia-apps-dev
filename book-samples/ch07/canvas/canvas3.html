@@ -1,0 +1,41 @@
+<html>  
+  <head>  
+    <title>Canvas</title>  
+    <script type="text/javascript">  
+      function draw(){  
+        var canvas = document.getElementById('myCanvas');  
+        if (canvas.getContext){  
+          var c = canvas.getContext('2d');
+
+	  c.fillStyle = 'red';  
+          //c.fillRect (125, 10, 50, 50);  //head
+	  c.fillRect (142, 60, 16, 130); //body    
+          c.fillRect (85, 100, 130, 16); //arm    
+
+          c.lineWidth=10;
+          c.strokeStyle='red'; 
+
+          c.beginPath();
+          c.arc(150,35,25,Math.PI/2,3*Math.PI, false);
+          c.stroke();
+
+          c.beginPath();
+          c.lineTo(150,180); //body
+          c.lineTo(200,270); //rightleg
+          c.moveTo(150,180);
+          c.lineTo(100,270); //left leg
+          c.stroke();
+
+        }  
+      }  
+    </script>  
+    <style type="text/css">  
+      #myCanvas { 
+	border: 1px solid black;
+      }  
+    </style>  
+  </head>  
+  <body onload="draw();">  
+    <canvas id="myCanvas" width="300" height="300"></canvas>  
+  </body>  
+</html>  

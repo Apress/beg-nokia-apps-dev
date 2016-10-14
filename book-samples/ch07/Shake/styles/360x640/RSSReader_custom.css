@@ -1,0 +1,26 @@
+	.box{
+		width:89%;
+	}
+	
+	.box-label{
+		font-size:24px;			
+	}
+			
+	.box-input{
+		font-size:16px;
+	}
+	
+	.button{
+		font-size:24px;
+	}
+	
+	/*Overide template style*/			
+	#RSSReader .nokia-template-header .nokia-template-header-title {
+		padding-top:10px;
+		width:50%;
+	}
+		
+	#RSSReader .nokia-template-header  {
+		height:60px;	
+	}
+		

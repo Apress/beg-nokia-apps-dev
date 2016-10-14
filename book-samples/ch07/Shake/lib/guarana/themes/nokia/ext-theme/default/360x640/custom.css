@@ -1,0 +1,77 @@
+/* CSS Custom */
+.nokia-border-state-default > b {
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.nokia-border-state-default.nokia-border-top > b {
+	background: #F6F6F6;
+}
+
+.nokia-border-state-default.nokia-border-bottom > b {
+	background: #F7F7F7;
+}
+
+.nokia-border-state-default b.nokia-b1 {
+	background: #C8C8C8;
+}
+
+.nokia-border-state-active > b {
+	border-left: 1px solid #72A729;
+	border-right: 1px solid #72A729;
+}
+
+.nokia-border-state-active.nokia-border-top > b {
+	background: #A4C64E;
+}
+
+.nokia-border-state-active.nokia-border-bottom > b {
+	background: #B0CD66;
+}
+
+.nokia-border-state-active b.nokia-b1 {
+	background: #72A729;
+}
+
+.nokia-border-state-hover > b {
+	border-left: 1px solid #72A729;
+	border-right: 1px solid #72A729;
+}
+
+.nokia-border-state-hover.nokia-border-top > b {
+	background-color: #DADFC9;
+}
+
+.nokia-border-state-hover.nokia-border-bottom > b {
+	background-color: #E5E9D9;
+}
+
+.nokia-border-state-hover b.nokia-b1 {
+	background: #72A729;
+}
+
+.nokia-border-state-highlight > b {
+	border-left: 1px solid #72A729;
+	border-right: 1px solid #72A729;
+}
+
+.nokia-border-state-highlight.nokia-border-top > b {
+	background: #9CC140;
+}
+
+.nokia-border-state-highlight.nokia-border-bottom > b {
+	background: #A6C752;
+}
+
+.nokia-border-state-highlight b.nokia-b1 {
+	background: #72A729;
+}
+
+.nokia-border-state-disabled > .nokia-b1 {
+	background: #C8C8C8;
+}
+
+.nokia-border-state-disabled > b {
+	opacity: .35;
+	background-image: none;
+}

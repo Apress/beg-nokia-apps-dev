@@ -1,0 +1,41 @@
+.nokia-lightbox-overflow, .nokia-lightbox-loader {
+	position: absolute;
+	display: none;
+}
+
+.nokia-lightbox {
+	z-index: 500;
+	position: absolute;
+	display: none;
+}
+
+.nokia-lightbox-element {
+	overflow: auto;
+}
+
+.nokia-lightbox-button-container {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.nokia-lightbox-button {
+	padding: 20px;
+	text-align: center;
+}
+
+.nokia-lightbox-button-close {
+	padding: 0 8px;
+	font-weight: bold;
+	width: 6px;
+	height: 16px;
+}
+
+.nokia-lightbox-overflow {
+	z-index: 499;
+}
+
+.nokia-lightbox-button-close-container .nokia-button {
+	top: 5px; right: 5px;
+	position: absolute;
+}

@@ -1,0 +1,7 @@
+.nokia-sortable .selected {
+	border: 1px solid #72A729;
+}
+
+.nokia-sortable-placeholder {
+	display: none;
+}

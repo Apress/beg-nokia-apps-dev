@@ -1,0 +1,26 @@
+.nokia-topbar {
+	position: relative;
+	padding: 0px 5px;
+	border: none !important;
+}
+
+.nokia-topbar-container {
+	background: url(images/top_bg_effects.png) repeat-x;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.nokia-topbar .nokia-topbar-item {
+	display: block;
+	width: 53px;
+	float: left;
+	margin: 0;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.nokia-topbar, .nokia-topbar .nokia-topbar-container, .nokia-topbar .nokia-topbar-item {
+	height: 60px;
+}

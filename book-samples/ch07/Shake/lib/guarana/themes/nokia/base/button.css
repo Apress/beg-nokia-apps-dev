@@ -1,0 +1,15 @@
+.nokia-button-element {
+	padding: 8px;
+	display: block;
+}
+
+.nokia-button {
+	margin: 5px;
+	text-align: center;
+	float: left;
+	text-decoration: none;
+}
+
+.nokia-button-wrapper .ui-state-disabled {
+	border: 1px solid #444444;
+}

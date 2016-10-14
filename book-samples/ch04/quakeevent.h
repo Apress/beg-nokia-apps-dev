@@ -1,0 +1,45 @@
+/*
+ * Chapter 3
+ *
+ * Demonstrates
+ * - Container class for earthquake events
+ */
+
+#ifndef QUAKEEVENT_H
+#define QUAKEEVENT_H
+
+#include <QString>
+#include <QDateTime>
+#include <QMap>
+#include <QPair>
+#include <QMetaType>
+
+class QuakeEvent {
+public:
+    QuakeEvent();
+
+    QString id() const;
+    QString summary() const;
+    QDateTime when() const;
+    QString where() const;
+    qreal magnitude() const;
+    QPair<qreal, qreal> position() const;
+    qreal elevation() const;
+    QString html() const;
+
+    // Used by the XML parser
+    void set(const QString& name, const QString& value);
+    QString get(const QString& name) const;
+
+    bool isEmpty() const;
+    void clear();
+
+    // For use when sorting by time
+    bool operator<(const QuakeEvent& b) const;
+
+private:
+    QMap<QString, QString> mData;
+    static bool mRegisterMetaType;
+};
+
+#endif // QUAKEEVENT_H

@@ -1,0 +1,54 @@
+.nokia-imagedescription-element {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #ccc;
+}
+
+.nokia-imagedescription-wrapper {
+	position: relative;
+	text-align: center;
+	padding: 10px;
+}
+
+.nokia-imagedescription-description {
+	position: relative;
+	overflow: hidden;
+	height: 18px;
+	margin: 15px auto 0px auto;
+	line-height: 18px;
+}
+
+.nokia-imagedescription {
+	float: left;
+	clear: both;
+	margin: 5px 0;
+}
+
+.nokia-imagedescription-arrow {
+	position: relative;
+	margin: 10px auto 0 auto;
+	height: 24px;
+	width: 40px;
+	cursor: pointer;
+	background: transparent url(images/imagedescription.png) no-repeat;
+}
+
+.nokia-imagedescription-arrow-down {
+	background-position: 0 -28px;	
+}
+
+.nokia-imagedescription-arrow-up {
+	background-position: 0 0;	
+}
+
+.nokia-imagedescription-arrow-container {
+	position: relative;
+	margin: 0px auto;
+	padding: 0;
+	display: block;
+}
+
+.nokia-imagedescription-arrow-container.nokia-open .nokia-imagedescription-more-info {
+	display: none;
+}

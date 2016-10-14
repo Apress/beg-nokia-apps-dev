@@ -1,0 +1,72 @@
+			
+			.widget-view {
+				width:100%;
+			}
+					
+			.box{
+				padding:10px 10px 10px 10px;		
+			}
+			.box-label{
+				font-weight:bold;		
+			}
+			
+			.box-input{
+				margin-top:15px;
+				width:96%;
+			}
+			
+			.button{
+				font-weight:bold;
+			}
+			
+			/* added by DFZ */
+			#textimage {
+				float: left;
+				margin-right: 4px;
+			}
+			
+			.quakeImage:active {
+				-webkit-transition: all 1s ease-in-out;
+     			 -webkit-transform: scale(5) translateX(50px);
+			}
+			
+			/*
+			 * Overide quarana components styles
+			 */
+			#settings-view .nokia-optiongroup{
+				width:96%;
+				margin-top:20px;
+				margin-bottom:15px;
+			}
+			
+			#RSSReader .nokia-busy-text-loader > div{
+				display:block;		
+			}
+			
+			#RSSReader .nokia-busy-text-loader{
+				padding-top:10px;
+				bottom:0px;		
+				height:15%;
+				width:60%;
+			}
+			
+			#RSSReader .nokia-floatingmenu {
+				z-index:100;
+			}
+			
+			#RSSReader .nokia-template-container .nokia-template-content-no-footer {
+				height:100%;
+				width:100%;
+			}
+		
+		 	#RSSReader .nokia-template-content-landscape.nokia-template-content-no-footer {
+				height:100%;
+			}
+											
+			#RSSReader .ui-accordion-header{
+				margin-right:10px;
+			}
+								
+				
+	
+		

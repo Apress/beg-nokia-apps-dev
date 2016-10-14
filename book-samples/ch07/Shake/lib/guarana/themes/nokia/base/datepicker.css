@@ -1,0 +1,102 @@
+.nokia-datepicker {
+	width: 320px;
+	padding: 5px;
+}
+
+.nokia-datepicker-navigation-wrapper {
+	height: 34px;
+}
+
+.nokia-datepicker-calendar-wrapper {
+	padding: 5px;
+}
+
+.nokia-datepicker-element {
+	margin-bottom: 5px;
+}
+
+.nokia-datepicker-image {
+	float: right;
+	display: block;
+	height: 60px;
+	width: 54px;
+	background: url(images/calendar.png) no-repeat 0 0;
+}
+
+.nokia-datepicker-image-hover {
+	background-position: 0 -60px;
+}
+
+.nokia-datepicker-input-error {
+	color: red !important;
+}
+
+.nokia-datepicker-label-date {
+	margin: 5px 0 0 12px;
+	color: #CCCCCC;
+	float: left;
+	font-size: 42px;
+	width: 240px;
+	border: none;
+	background: transparent;
+}
+
+.nokia-datepicker-days-wrapper {
+	float: left;
+}
+
+.nokia-datepicker-label-date:focus {
+	border: 1px solid;
+}
+
+.nokia-datepicker-label-month {
+	float: left;
+	width: 60%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.nokia-datepicker-week-label {
+	display:block;
+	float:left;
+	font-weight:bold;
+	margin: 2px;
+	padding: 0 6px;
+	text-align:center;
+	width: 28px;
+}
+
+.nokia-datepicker-day-blank {
+	border: 1px solid transparent;
+}
+
+.nokia-datepicker-day {
+	float: left;
+	margin: 2px;
+	padding: 8px 6px;
+	font-size: 18px;
+	text-align: center;
+	width: 26px;
+}
+
+.nokia-datepicker-arrow {
+	border: none !important;
+	width: 20%;
+	height: 34px;
+	float: left;
+	cursor: pointer;
+}
+
+.nokia-datepicker-arrow-icon {
+	margin-top: 10px;
+}
+
+.nokia-datepicker-arrow-icon-right {
+	float: right;
+	margin-right: 10px;
+}
+
+.nokia-datepicker-arrow-icon-left {
+	float: left;
+	margin-left: 10px;
+}

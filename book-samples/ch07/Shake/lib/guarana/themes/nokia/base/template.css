@@ -1,0 +1,38 @@
+.nokia-template-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.nokia-template-header {
+	height: 60px;
+}
+
+.nokia-template-content {
+	height: 480px;
+	padding: 10px;
+	overflow: auto;
+	font-size: 18px;
+}
+
+.nokia-template-footer {
+	height: 80px;
+	padding: 10px 0;
+}
+
+.nokia-template-header-landscape {
+	height: 60px;
+}
+
+.nokia-template-content-landscape {
+	height: 280px;
+	width: 568px;
+}
+
+.nokia-template-footer-landscape {
+	height: 300px;
+	width: 52px;
+	padding: 0;
+	position: absolute;
+	top: 60px;
+	right: 0;
+}

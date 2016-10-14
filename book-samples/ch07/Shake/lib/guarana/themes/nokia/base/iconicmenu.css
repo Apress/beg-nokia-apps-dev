@@ -1,0 +1,36 @@
+.nokia-iconicmenu {
+	text-align: center;
+	padding: 16px;
+}
+
+.nokia-iconicmenu-item {
+	border: none !important;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	margin: 0px auto;
+	padding: 4px;
+	float: left;
+	text-decoration: none;
+}
+
+.nokia-iconicmenu-item-selected {
+	font-weight: bold;
+}
+
+.nokia-iconicmenu-item-selected > img {
+	opacity: 1;
+}
+
+.nokia-iconicmenu-label {
+	padding: 2px;
+}
+
+.nokia-iconicmenu-image {
+	opacity: 0.85;
+	margin: 2px;
+}
+
+.nokia-iconicmenu-item-wrapper {
+	display: inline-block;
+}

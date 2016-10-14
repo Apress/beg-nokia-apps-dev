@@ -1,0 +1,46 @@
+.nokia-carousel, .nokia-carousel-container {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.nokia-carousel {
+	padding: 4px 0;
+}
+
+.nokia-carousel-arrow {
+	position: absolute;
+	top: 0px;
+}
+
+.nokia-carousel-arrow-focused {
+	border: 1px solid #CCCCCC;
+}
+
+.nokia-carousel-arrow-left {
+	background: url(images/arrow-left.png) no-repeat 25% 50%;
+	left: 0;
+}
+
+.nokia-carousel-arrow-right {
+	background: url(images/arrow-right.png) no-repeat 75% 50%;
+	right: 0;
+}
+
+.nokia-carousel-arrow-left:hover {
+	background-position: 25% 50%;
+	left: 0;
+}
+
+.nokia-carousel-arrow-right:hover {
+	background-position: 75% 50%;
+	right: 0;
+}
+
+.nokia-carousel-item {
+	float: left;
+}
+
+.nokia-carousel-item img {
+	margin: 0 4px;
+}

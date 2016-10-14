@@ -1,0 +1,67 @@
+.nokia-miniview {
+	width: 320px;
+	height: 90px;
+	margin: 4px 2px;
+	text-align: justify;
+	padding: 10px;
+	line-height: 28px;
+	overflow: hidden;
+}
+
+a.nokia-miniview {
+	display: block;
+	text-decoration: none;
+}
+
+.nokia-miniview-hybrid-image {
+	float: left;
+	height: 90px;
+	width: 90px;
+	margin: 0px 10px;
+}
+
+.nokia-miniview-hybrid-text {
+	float: left;
+	width: 190px;
+	margin: 5px 10px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.nokia-miniview-landascape-image {
+	height: 90px;
+	width: 320px;
+}
+
+.nokia-miniview-multipleimages-image {
+	width: 72px;
+	height: 90px;
+	margin: 0 4px;
+}
+
+.nokia-miniview-hybridhorizontal-text {
+	width: 320px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.nokia-miniview-hybridhorizontal-image {
+	height: 45px;
+	width: 320px;
+	display: block;
+}
+
+.nokia-miniview-grid-text {
+	margin: 0;
+	line-height: 20px;
+}
+
+.nokia-miniview-grid-image {
+	float: left;
+	height: 45px;
+	margin-right: 10px;
+}
+
+.nokia-miniview-grid-row {
+	margin: 2px 0;
+}

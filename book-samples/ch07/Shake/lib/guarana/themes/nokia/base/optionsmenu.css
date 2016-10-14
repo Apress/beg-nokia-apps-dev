@@ -1,0 +1,55 @@
+.nokia-optionsmenu {
+	width: 100%;
+	padding: 0px;
+	z-index: 5000;
+	position: absolute;
+}
+
+.nokia-optionsmenu a {
+	display: block;
+	text-decoration: none;
+}
+
+.nokia-optionsmenu > .nokia-optionsmenu-item {
+	float: left;
+}
+
+.nokia-optionsmenu .nokia-optionsmenu-item > div {
+	min-width: 200px;
+	padding: 0;
+	margin: 0;
+}
+
+.nokia-optionsmenu a.nokia-label {
+	padding: 15px;
+	margin: 0;
+	display: block;
+}
+
+.nokia-optionsmenu-optionscontainer {
+	position: absolute;
+}
+
+.nokia-optionsmenu div a {
+	padding: 10px;
+}
+
+.nokia-shadow {
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.nokia-shadow * {
+	float: left !important;
+	width: 100% !important;
+	display: block !important;
+}
+
+.nokia-optionsmenu-label-content {
+	background: transparent url(images/arrow-down-small.png) no-repeat scroll 98% 50%;
+}
+
+.ui-state-active .nokia-optionsmenu-label-content {
+	background: transparent url(images/arrow-down-small-active.png) no-repeat scroll 98% 50%;
+}

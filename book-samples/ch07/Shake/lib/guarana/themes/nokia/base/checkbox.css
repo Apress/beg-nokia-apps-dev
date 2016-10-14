@@ -1,0 +1,39 @@
+.nokia-checkbox {
+	margin: 15px 0px;
+}
+
+.nokia-checkbox-icon {
+	background-image: url(images/checkbox.png);
+	height: 37px;
+	width: 42px;
+	float: left;
+}
+
+.nokia-checkbox-checked {
+	background-position: 0px 0;
+}
+
+.nokia-checkbox-unchecked {
+	background-position: 0 -74px;
+}
+
+.nokia-checkbox-pushed {
+
+}
+
+.nokia-checkbox-pushed .nokia-checkbox-checked {
+	background-position: 0 -37px;
+}
+
+.nokia-checkbox-pushed .nokia-checkbox-unchecked {
+	background-position: 0 -111px;
+}
+
+.nokia-checkbox-label {
+	float: left;
+	overflow: hidden;
+	line-height: 44px;
+	font-size: 1.4em;
+	margin-top: -5px;
+	margin-left: 12px;
+}

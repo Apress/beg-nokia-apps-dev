@@ -1,0 +1,39 @@
+.nokia-radiobox {
+	margin-bottom: 15px;
+}
+
+.nokia-radiobox-icon {
+	background-image: url(images/radiobox.png);
+	height: 38px;
+	width: 37px;
+	float: left;
+}
+
+.nokia-radiobox-checked {
+	background-position: 0 0px;
+}
+
+.nokia-radiobox-unchecked {
+	background-position: 0 -76px;
+}
+
+.nokia-radiobox-pushed {
+
+}
+
+.nokia-radiobox-pushed .nokia-radiobox-checked {
+	background-position: 0 -38px;
+}
+
+.nokia-radiobox-pushed .nokia-radiobox-unchecked {
+	background-position: 0 -114px;
+}
+
+.nokia-radiobox-label {
+	float: left;
+	overflow: hidden;
+	line-height: 44px;
+	font-size: 1.4em;
+	margin-top: -3px;
+	margin-left: 12px;
+}

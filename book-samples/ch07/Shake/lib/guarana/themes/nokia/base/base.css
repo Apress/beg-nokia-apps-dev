@@ -1,0 +1,224 @@
+/* ---------- CSS Reset ---------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+	max-width: 640px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+/* Inspired in from Eric Meyer's Reset Reloaded for CSS, 2008 */
+
+/* ---------- Utils ---------- */
+
+.nokia-clear {
+	clear: both;
+}
+
+.nokia-center {
+	margin: 0 auto;
+}
+
+.nokia-hidden {
+	display: none !important;
+}
+
+#loading {
+	text-align: center;
+	padding-top: 150px;
+	position: absolute;
+	top: 0; left: 0;
+	text-align: center;
+	width: 100%; height: 100%;
+	display: none;
+}
+
+.nokia-loading {
+	font-size: 22px;
+	color: #666;
+	font-weight: bold;
+	margin: 15px 0 15px 0;
+	text-align: center;
+}
+
+/* ---------- Icons ---------- */
+
+.nokia-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+/* ---------- Rounded Corners ---------- */
+
+.nokia-border-content {
+	border-top-width: 0 !important;
+	border-bottom-width: 0 !important;
+}
+
+.nokia-b1, .nokia-b2, .nokia-b3, .nokia-b4 {
+	display: block;
+	overflow: hidden;
+}
+
+.nokia-b1, .nokia-b2, .nokia-b3 {
+	height: 1px;
+}
+
+.nokia-b2, .nokia-b3, .nokia-b4, .nokia-border-content {
+	border-width: 0 1px;
+}
+
+.nokia-b1 {
+	margin: 0 4px;
+}
+
+.nokia-b2 {
+	margin: 0 3px;
+	border-width: 0 2px;
+}
+
+.nokia-b3 {
+	margin: 0 2px;
+}
+
+.nokia-b4 {
+	height: 2px;
+	margin: 0 1px;
+}
+
+.nokia-border-top, .nokia-border-bottom {
+	display: block;
+	background: transparent;
+	font-size: 1px;
+}
+
+.nokia-overflow {
+	background: transparent url(images/shadow-c.png) repeat scroll 0 0;
+}
+
+.nokia-shadow {
+	position: absolute;
+	display: none;
+}
+			
+.nokia-shadow * {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	clear: none;
+}
+
+.nokia-shadow .nokia-shadow-top, .nokia-shadow .nokia-shadow-bottom {
+	height: 6px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.nokia-shadow .nokia-shadow-tl, .nokia-shadow .nokia-shadow-tr, .nokia-shadow .nokia-shadow-bl, .nokia-shadow .nokia-shadow-br {
+	float: left;
+	height: 6px;
+	width: 6px;
+}
+
+.nokia-shadow .nokia-shadow-tl {
+	background: transparent url(images/shadow.png) no-repeat scroll 0 0;
+}
+
+.nokia-shadow .nokia-shadow-tc {
+	background: transparent url(images/shadow.png) repeat-x scroll 0 -30px;
+}
+
+.nokia-shadow .nokia-shadow-tr {
+	background: transparent url(images/shadow.png) no-repeat scroll 0 -18px;
+}
+.nokia-shadow .nokia-shadow-bl {
+	background: transparent url(images/shadow.png) no-repeat scroll 0 -12px;
+}
+
+.nokia-shadow .nokia-shadow-bc {
+	background: transparent url(images/shadow.png) repeat-x scroll 0 -36px;
+}
+
+.nokia-shadow .nokia-shadow-br {
+	background: transparent url(images/shadow.png) no-repeat scroll 0 -6px;
+}
+
+.nokia-shadow .nokia-shadow-middle {
+	width: 100%;
+}
+
+.nokia-shadow .nokia-shadow-ml, .nokia-shadow .nokia-shadow-mr {
+	float: left;
+	height: 100%;
+	width: 6px;
+}
+
+.nokia-shadow .nokia-shadow-bc, .nokia-shadow .nokia-shadow-tc {
+	height: 6px;
+	float: left;
+}
+
+.nokia-shadow .nokia-shadow-ml {
+	background: transparent url(../themes/nokia/images/shadow-lr.png) repeat-y scroll 0 0;
+}
+
+.nokia-shadow .nokia-shadow-mc {
+	background: transparent url(../themes/nokia/images/shadow-c.png) repeat scroll 0 0;
+	float: left;
+	height: 100%;
+}
+
+.nokia-shadow .nokia-shadow-mr {
+	background: transparent url(../themes/nokia/images/shadow-lr.png) repeat-y scroll -6px 0;
+}

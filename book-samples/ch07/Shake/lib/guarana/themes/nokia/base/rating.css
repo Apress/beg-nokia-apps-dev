@@ -1,0 +1,15 @@
+.nokia-rating-star {
+	width: 62px;
+	margin: 4px 2px;
+	height: 60px;
+	float: left;
+	background: transparent url(images/rating.png) no-repeat;
+}
+
+.nokia-rating-star-full {
+	background-position: 0 -120px;
+}
+
+.nokia-rating-star-full-hover {
+	background-position: 0 -60px;
+}

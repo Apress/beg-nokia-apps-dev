@@ -1,0 +1,5 @@
+<start>
+  <player highlight="true" highlightColour="0xFFFFFF" highlightAlpha="50"/>
+  <screen name="0923DCC4-AEE6-498F-45F5-D987240B3E6C" xml="0923DCC4-AEE6-498F-45F5-D987240B3E6C.xml"/>
+  <hardware screenWidth="800" screenHeight="480" keyboard="Qwerty" cluster="None"/>
+</start>

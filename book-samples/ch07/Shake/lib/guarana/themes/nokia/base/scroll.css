@@ -1,0 +1,52 @@
+.nokia-scroll-arrow {
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 400;
+	background: transparent url(images/scroll.png) no-repeat;
+}
+
+.nokia-scroll-arrow-up {
+	background-position: left -2px;
+}
+
+.nokia-scroll-arrow-down {
+	background-position: 0px -38px;
+}
+
+.nokia-scroll-arrow-up-active {
+	background-position: -36px -2px;
+}
+
+.nokia-scroll-arrow-down-active {
+	background-position: -36px -38px;
+}
+
+.nokia-scroll-arrow-up-disabled {
+	background-position: -72px -2px;
+}
+
+.nokia-scroll-arrow-down-disabled {
+	background-position: -72px -38px;
+}
+
+.nokia-scroll-wrapper {
+	width:10px;
+	right: 15px;
+	top: 45px;
+	z-index: 400;
+}
+
+.nokia-scroll-roller {
+	height: 50px;
+	width:8px;
+	opacity: 0.7;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nokia-scroll-end-of-content {
+	width: 400px;
+	height: 100px;
+	z-index: 0 !important;
+}

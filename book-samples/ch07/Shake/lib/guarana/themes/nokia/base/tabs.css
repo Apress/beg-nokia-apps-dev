@@ -1,0 +1,88 @@
+.nokia-tabs-item {
+	float: left;
+	font-size: 20px;
+	padding: 0;
+}
+
+.nokia-tabs-content {
+	padding: 20px 10px;
+	margin-top: -1px;
+	border-top: none !important;
+}
+
+.nokia-tabs-content > p {
+	margin: 0;
+}
+
+.nokia-tabs-item {
+	border-bottom: 1px solid #CCCCCC;
+	background:transparent url(images/unselected.png) bottom left no-repeat;
+}
+
+.nokia-tabs-item > a {
+	padding: 11px 15px 15px;
+	display: block;
+	margin: 0 0px 0 0;
+	text-decoration: none;
+	text-align: center;
+}
+
+.nokia-tabs-item-selected {
+	border-bottom: none !important;
+}
+
+.nokia-tabs-item-selected > a {
+	font-weight: bold;
+	border-bottom: none !important;
+}
+
+.nokia-tabs-list-container {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.nokia-tabs-list-wrapper {
+	width: 5000px;
+	cursor: default;
+}
+
+.nokia-tabs-dropdown-wrapper {
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 50px;
+	width: 45px;
+}
+
+.nokia-tabs-dropdown {
+	height: 48px;
+	width: 42px;
+	padding: 0 !important;
+}
+
+.nokia-tabs-arrow {
+	top: 35%;
+	position: absolute;
+	right: 15px;
+}
+
+.nokia-tabs-arrow-right {
+	background: url(images/arrow-right-small.png) no-repeat 75% 50%;
+	right: 15px;
+	height: 20px;
+	width: 11px;
+}
+
+.nokia-tabs-outtab-item {
+	margin: 0;
+	padding: 15px 10px;
+}
+
+.nokia-tabs-extra-tabs {
+	position: absolute;
+	width: 100px;
+	top: 52px;
+	right: 0px;
+}

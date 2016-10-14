@@ -1,0 +1,48 @@
+.nokia-customizablelist, .nokia-transitionbox {
+	text-align: center;
+	padding: 1px;
+	display: none;
+}
+
+.nokia-customizablelist-title {
+	font-size: 20px;
+	font-weight: bold;
+	height: 65px;
+	line-height: 65px;
+}
+
+.nokia-customizablelist-item {
+	padding: 10px;
+	margin: 1px;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+.nokia-customizablelist-item-first {
+	border: none;
+}
+
+.nokia-customizablelist-item-icon {
+	position: absolute;
+	right: 0;
+	top: 18px;
+}
+
+.nokia-transitionbox .nokia-customizablelist-item {
+	width: 48%;
+	float: left;
+}
+
+.nokia-transitionbox .nokia-transitionbox-prev .nokia-customizablelist-item-icon {
+	left: 0;
+}
+
+.nokia-transitionbox-borderless {
+	border: 0;
+}
+
+.nokia-transitionbox-content {
+	padding: 15px;
+	text-align: justify;
+}

@@ -1,0 +1,24 @@
+<html>  
+  <head>  
+    <title>Canvas</title>  
+    <script type="text/javascript">  
+      function draw(){  
+        var canvas = document.getElementById('myCanvas');  
+        var c = canvas.getContext('2d');
+
+	c.fillStyle = 'red';  
+        c.fillRect (125, 10, 50, 50);  //head
+	c.fillRect (142, 60, 16, 130); //body    
+        c.fillRect (85, 100, 130, 16); //arm   
+      }  
+    </script>  
+    <style type="text/css">  
+      #myCanvas { 
+	border: 1px solid black;
+      }  
+    </style>  
+  </head>  
+  <body onload="draw();">  
+    <canvas id="myCanvas" width="300" height="300"></canvas>  
+  </body>  
+</html>  

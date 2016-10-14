@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head> 
+<title> Sample Widget</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<link rel='stylesheet' href='lib/guarana/themes/themeroller/default-theme/Themeroller.css' type='text/css' media='screen'>
+			
+		<script src="preLoader.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/guarana/lib/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/guarana/lib/Guarana.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/Ajax.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script language="javascript" type="text/javascript" src="FeedUpdateBroker.js"></script>
+		<script language="javascript" type="text/javascript" src="RSSReader.js"></script>
+		<link rel="stylesheet" href="RSSReader.css" type="text/css">
+    	<META NAME="Generator" CONTENT="Nokia WDE 3.0.0" />
+		
+		<script language="javascript">
+
+		    function createLinkElement(href) {
+		        var linkElement = document.createElement("link");
+		        linkElement.setAttribute("rel", "stylesheet");
+		        linkElement.setAttribute("type", "text/css");
+		        linkElement.setAttribute("media", "screen");
+		        linkElement.setAttribute("href", href);
+
+		        document.getElementsByTagName("head")[0].appendChild(linkElement);
+		    }
+
+		    var themeref = document.createElement("link")
+		    themeref.setAttribute("rel", "stylesheet")
+		    themeref.setAttribute("type", "text/css")
+		    themeref.setAttribute("media", "screen")
+
+		    var customStyleref = document.createElement("link");
+		    customStyleref.setAttribute("rel", "stylesheet")
+		    customStyleref.setAttribute("type", "text/css")
+
+		    var theme, themeroller;
+		    if (window.innerWidth == 800 || window.innerWidth == 480) {
+		        theme = "800x480";
+		        themeroller = "maemo5";
+		    }
+		    else {
+		        theme = (window.innerWidth == 240 || window.innerWidth == 320) ? "240x320" : "360x640";
+		        themeroller = "default";
+		    }
+
+		    createLinkElement("lib/guarana/themes/nokia/ext-theme/" + themeroller + "/" + theme + "/custom.css");
+		    createLinkElement("styles/" + theme + "/RSSReader_custom.css");
+
+		    createLinkElement("lib/guarana/themes/themeroller/" + themeroller + "-theme/ui.all.css");
+		    createLinkElement("lib/guarana/themes/themeroller/" + themeroller + "-theme/Themeroller.css");
+	
+    	</script>
+		
+</head>
+
+	<body id="RSSReader" onLoad="javascript:init();">
+	</body>
+</html>
